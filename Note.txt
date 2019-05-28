@@ -43,7 +43,11 @@ D:\react\ts-setup-with-node-and-express>npm i express
 D:\react\ts-setup-with-node-and-express>npm i -D typescript ts-node nodemon @types/node @types/express
 D:\react\ts-setup-with-node-and-express>npm run dev
 
+D:\react\ts-setup-with-node-and-express>npm run build
+D:\react\ts-setup-with-node-and-express>npm start
 
+use nodemon during developement, and you can do ts, linter, ts-node etc.
+And then you compile it and deploy your javascript.
 
 
 
