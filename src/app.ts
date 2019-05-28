@@ -2,11 +2,16 @@
 //
 // const numbers: number[] = [1,2,3];
 
-import express from 'express';
+import express, {Application, Request, Response, NextFunction} from 'express';
 
-const app = express();
+// const app: express.Application = express();
+const app: Application = express();
 
-app.get('/', (req, res) => {
+const add = (a: number, b: number): number => a + b;
+
+app.get('/', (req: Request, res: Response, next: NextFunction) => {
+    // console.log(add(5,'5'));
+    console.log(add(5,5));
     res.send('Hello');
 });
 
