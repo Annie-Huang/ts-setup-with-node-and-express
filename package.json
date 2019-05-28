@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/ts-setup-with-node-and-express/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/ts-setup-with-node-and-express#readme"
+  "homepage": "https://github.com/Annie-Huang/ts-setup-with-node-and-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
