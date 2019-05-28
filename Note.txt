@@ -35,7 +35,8 @@ Found 1 error.
 D:\react\ts-setup-with-node-and-express>tsc app.ts -w				<< compile with watch mode
 D:\react\ts-setup-with-node-and-express>tsc --init
 
-
+D:\react\ts-setup-with-node-and-express>tsc			<< will auto look at the outDir and rootDir set in tsconfig.json and compile everything and output the result accordingly...
+You can see in D:\react\ts-setup-with-node-and-express\dist\app.js, it's using const, the es6 syntax (defined in tsconfig.json)
 
 
 
