@@ -1,0 +1,5 @@
+D:\react>mkdir ts-setup-with-node-and-express
+
+D:\react>cd ts-setup-with-node-and-express
+
+D:\react\ts-setup-with-node-and-express>git init
