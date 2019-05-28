@@ -40,7 +40,7 @@ You can see in D:\react\ts-setup-with-node-and-express\dist\app.js, it's using c
 
 D:\react\ts-setup-with-node-and-express>npm init -y
 D:\react\ts-setup-with-node-and-express>npm i express
-
+D:\react\ts-setup-with-node-and-express>npm i -D typescript ts-node nodemon @types/node @types/express
 
 
 
