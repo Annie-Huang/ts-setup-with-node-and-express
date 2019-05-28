@@ -1,5 +1,55 @@
+https://www.youtube.com/watch?v=zRo2tvQpus8
+https://github.com/Annie-Huang/ts-setup-with-node-and-express
+
+
 D:\react>mkdir ts-setup-with-node-and-express
-
 D:\react>cd ts-setup-with-node-and-express
-
 D:\react\ts-setup-with-node-and-express>git init
+
+D:\react\ts-setup-with-node-and-express>git remote add origin git@github.com:Annie-Huang/ts-setup-with-node-and-express.git
+D:\react\ts-setup-with-node-and-express>git add .
+D:\react\ts-setup-with-node-and-express>git commit
+D:\react\ts-setup-with-node-and-express>git push -u origin master
+
+D:\react\ts-setup-with-node-and-express>npm i -g typescript
++ typescript@3.4.5
+D:\react\ts-setup-with-node-and-express>tsc --version
+Version 3.4.5
+
+
+D:\react\ts-setup-with-node-and-express>tsc app.ts				<< compile ts into js
+
+D:\react\ts-setup-with-node-and-express>tsc app.ts
+app.ts:3:35 - error TS2322: Type 'string' is not assignable to type 'number'.
+
+3 const numbers: number[] = [1,2,3, 'Hello'];
+                                    ~~~~~~~
+
+
+Found 1 error.
+
+D:\react\ts-setup-with-node-and-express>tsc app.ts -w				<< compile with watch mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
