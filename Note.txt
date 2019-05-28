@@ -19,6 +19,8 @@ Version 3.4.5
 
 D:\react\ts-setup-with-node-and-express>tsc app.ts				<< compile ts into js
 
+----------------
+
 D:\react\ts-setup-with-node-and-express>tsc app.ts
 app.ts:3:35 - error TS2322: Type 'string' is not assignable to type 'number'.
 
@@ -28,8 +30,10 @@ app.ts:3:35 - error TS2322: Type 'string' is not assignable to type 'number'.
 
 Found 1 error.
 
-D:\react\ts-setup-with-node-and-express>tsc app.ts -w				<< compile with watch mode
+----------------
 
+D:\react\ts-setup-with-node-and-express>tsc app.ts -w				<< compile with watch mode
+D:\react\ts-setup-with-node-and-express>tsc --init
 
 
 
