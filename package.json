@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Annie-Huang/ts-setup-with-node-and-express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
